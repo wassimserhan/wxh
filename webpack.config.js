@@ -1,6 +1,6 @@
 // Webpack uses this to work with directories
 const path = require('path');
-// const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 // This is the main configuration object.
@@ -79,6 +79,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new HtmlWebpackPlugin(),
     require('autoprefixer'),
     require('cssnano'),
     new MiniCssExtractPlugin({
