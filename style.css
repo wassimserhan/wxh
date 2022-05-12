@@ -4839,7 +4839,7 @@ canvas {
   align-items: center;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content: flex-start;
+  justify-content: center;
   overflow-x: scroll;
   overflow-y: hidden;
   height: 48px;
