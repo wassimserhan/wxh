@@ -363,7 +363,7 @@ table {
   .pswp--svg .pswp__button,
   .pswp--svg .pswp__button--arrow--left:before,
   .pswp--svg .pswp__button--arrow--right:before {
-    background-image: url(default-skin.svg);
+    // background-image: url(default-skin.svg);
   }
   .pswp--svg .pswp__button--arrow--left,
   .pswp--svg .pswp__button--arrow--right {
@@ -598,7 +598,7 @@ a.pswp__share--download:hover {
   opacity: 1;
 }
 .pswp__preloader--active .pswp__preloader__icn {
-  background: url(preloader.gif) 0 0 no-repeat;
+  // background: url(preloader.gif) 0 0 no-repeat;
 }
 .pswp--css_animation .pswp__preloader--active {
   opacity: 1;
@@ -758,26 +758,26 @@ a.pswp__share--download:hover {
   background: none;
 }
 @font-face {
-  font-family: 'Playfair Display';
+  font-family: 'Canela Web';
   src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
   font-weight: 100;
   font-style: normal;
   font-stretch: normal;
 }
 @font-face {
-  font-family: 'Playfair Display';
+  font-family: 'calibre';
   src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Playfair Display';
+  font-family: 'calibre';
   src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Playfair Display';
+  font-family: 'calibre';
   src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
   font-weight: 300;
   font-style: normal;
@@ -4636,7 +4636,7 @@ h6 {
 }
 h1 {
   font-size: 80px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Canela Web', serif;
 }
 @media only screen and (min-width: 770px) {
   h1 {
@@ -4679,7 +4679,7 @@ h6 {
 }
 p.large {
   font-size: 24px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Canela Web', serif;
   line-height: 1.6;
 }
 @media only screen and (min-width: 770px) {
@@ -4713,8 +4713,8 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  font-family: 'Playfair Display', 'Helvetica Neue', 'Helvetica', Helvetica,
-    Arial, sans-serif;
+  font-family: 'calibre', 'Helvetica Neue', 'Helvetica', Helvetica, Arial,
+    sans-serif;
   font-weight: 400;
   background: #fef1ec;
   color: #11223f;
@@ -4823,7 +4823,7 @@ canvas {
   height: 48px;
   background: #fef1ec;
   border-bottom: 1px solid #11223f;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Canela Web', serif;
   font-weight: 100;
   font-size: 28px;
   text-align: center;
@@ -4839,7 +4839,7 @@ canvas {
   align-items: center;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content: center;
+  justify-content: flex-start;
   overflow-x: scroll;
   overflow-y: hidden;
   height: 48px;
@@ -5794,7 +5794,7 @@ div.index-br-green-dots {
 .index-fact__intro h3 {
   font-size: 28px;
   line-height: 1.3;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Canela Web', serif;
   margin-top: 0.5em;
 }
 @media only screen and (min-width: 770px) {
@@ -5902,7 +5902,7 @@ div.index-br-green-dots {
 .index-event h3 {
   margin-top: 0;
   font-size: 48px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Canela Web', serif;
 }
 .index-event h4 {
   margin-top: 40px;
@@ -5917,7 +5917,7 @@ div.index-br-green-dots {
 .index-event p {
   margin-top: 0;
   font-size: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Canela Web', serif;
   line-height: 1.4;
 }
 @media only screen and (min-width: 770px) {
@@ -5949,8 +5949,8 @@ div.index-br-green-dots {
   }
 }
 .index-event__detail p.sans {
-  font-family: 'Playfair Display', 'Helvetica Neue', 'Helvetica', Helvetica,
-    Arial, sans-serif;
+  font-family: 'calibre', 'Helvetica Neue', 'Helvetica', Helvetica, Arial,
+    sans-serif;
   font-weight: 300;
 }
 .index-event__detail.detail-sans h6 {
@@ -6259,7 +6259,7 @@ div.index-br-green-dots {
 .index-la__card h4,
 .index-la__card--full h4 {
   font-size: 32px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Canela Web', serif;
   margin-bottom: 20px;
 }
 @media only screen and (min-width: 770px) {
@@ -6277,7 +6277,7 @@ div.index-br-green-dots {
   background-position: 98% 40%;
   background-size: 16px;
   font-size: 16px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Canela Web', serif;
   -webkit-transition: background-position 275ms ease-out;
   transition: background-position 275ms ease-out;
 }
@@ -6294,8 +6294,8 @@ div.index-br-green-dots {
 }
 .index-la__card li a span,
 .index-la__card--full li a span {
-  font-family: 'Playfair Display', 'Helvetica Neue', 'Helvetica', Helvetica,
-    Arial, sans-serif;
+  font-family: 'calibre', 'Helvetica Neue', 'Helvetica', Helvetica, Arial,
+    sans-serif;
   font-size: 12px;
 }
 .index-la__card li p,
@@ -6373,7 +6373,7 @@ div.index-br-green-dots {
 .index-hotel__title {
   display: block;
   font-size: 32px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Canela Web', serif;
   background-image: url("data:image/svg+xml,%3Csvg width='25' height='20' viewBox='0 0 25 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill-rule='nonzero' stroke='%23FF5734' stroke-width='.7' fill='none'%3E%3Cpath d='M0 10h24M14.4 0L24 10l-9.6 10'/%3E%3C/g%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: 98% 40%;
@@ -6483,15 +6483,15 @@ div.index-br-green-dots {
   display: block;
 }
 .index-rsvp__success {
-  font-family: 'Playfair Display', 'Helvetica Neue', 'Helvetica', Helvetica,
-    Arial, sans-serif;
+  font-family: 'calibre', 'Helvetica Neue', 'Helvetica', Helvetica, Arial,
+    sans-serif;
   font-size: 24px;
   color: #11223f;
   text-align: center;
   margin-top: 6em;
 }
 .index-rsvp__success span {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Canela Web', serif;
   font-size: 72px;
   color: #ff5734;
 }
@@ -6544,7 +6544,7 @@ div.index-br-green-dots {
 }
 .intro-banger h3 {
   font-size: 65px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Canela Web', serif;
   margin: 0;
   line-height: 0.85;
 }
