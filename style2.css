@@ -7124,7 +7124,7 @@ div.save-br-green-dots svg {
 /* Countdown */
 
 .countdown-body {
-  padding: 5rem 0 0;
+  padding: 3rem 0 0;
 }
 
 .year {
@@ -7159,6 +7159,7 @@ div.save-br-green-dots svg {
   justify-content: center;
   margin: 15px;
   color: rgb(126, 129, 60);
+  font-weight: 600;
 }
 
 .time h2 {
