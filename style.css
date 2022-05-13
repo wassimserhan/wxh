@@ -7144,6 +7144,10 @@ div.save-br-green-dots svg {
 
 /* Countdown */
 
+.countdown-body {
+  position: relative;
+}
+
 .year {
   font-size: 200px;
   /* z-index: -1; */
