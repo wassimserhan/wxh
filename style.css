@@ -5836,7 +5836,7 @@ div.index-br-green-dots {
 .index-marriage__graphic-right {
   position: absolute;
   right: -140px;
-  top: 80%;
+  top: 98%;
   zoom: 0.5;
 }
 @media only screen and (min-width: 770px) {
@@ -7156,7 +7156,7 @@ div.save-br-green-dots svg {
   bottom: -40px;
   left: 50%;
   transform: translateX(-50%);
-  color: rgb(126, 129, 60);
+  color: rgb(25, 60, 53);
 }
 
 .countdown {
