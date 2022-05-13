@@ -4632,6 +4632,7 @@ h2 {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   margin-top: 0.5em;
+  font-family: 'Playfair', serif;
 }
 @media only screen and (min-width: 770px) {
   h2 {
@@ -4648,6 +4649,7 @@ h5 {
   font-weight: 400;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  font-family: 'Playfair', serif;
 }
 @media only screen and (min-width: 770px) {
   h5 {
@@ -4662,7 +4664,7 @@ h6 {
 }
 p.large {
   font-size: 24px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
   line-height: 1.6;
 }
 @media only screen and (min-width: 770px) {
