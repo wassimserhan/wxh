@@ -3810,3 +3810,17 @@ document.body.classList.contains('index') &&
     }, 1200),
   document.body.classList.contains('slideshow') &&
     initPhotoSwipeFromDOM('.js-gallery');
+
+$.get(
+  'https://www.instagram.com/explore/tags/wassimandheather/?__a=1',
+  function (data, status) {
+    for (var i = 0; i < 6; i++) {
+      var $this = data.graphql.hashtag.edge_hashtag_to_media.edges[i].node;
+      $('#instagram').append(
+        '<img src="' + $this.thumbnail_resources[2].src + '">'
+      );
+
+      console.log($this);
+    }
+  }
+);
