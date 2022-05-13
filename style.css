@@ -4839,7 +4839,7 @@ canvas {
   align-items: center;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content:center;
+  justify-content: center;
   overflow-x: scroll;
   overflow-y: hidden;
   height: 48px;
@@ -6473,9 +6473,7 @@ div.index-br-green-dots {
 .index-rsvp__button.is-disabled {
   opacity: 0.5;
 }
-.index-rsvp__button:hover {
-  cursor: no-drop;
-}
+
 .index-rsvp__show {
   display: none;
 }

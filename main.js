@@ -45,35 +45,35 @@ function loadOptions() {
         : $('.js-rsvp-show')[0].classList.remove('is-active');
   });
 }
-function loadForm() {
-  var e = document.querySelector('.js-form'),
-    t = document.querySelector('.js-form-submit'),
-    n =
-      (document.querySelector('.js-form-error'),
-      document.querySelector('.js-form-success'));
-  t.addEventListener('click', function () {
-    console.log('click');
-    var o = {
-      NAME: document.querySelector('.js-form-name').value,
-      RESPONSE: document.querySelector('.js-rsvp-option.is-active').dataset
-        .value,
-      ATTENDING: document.querySelector('.js-form-attending').value,
-      DIET: document.querySelector('.js-form-diet').value
-    };
-    t.classList.add('is-disabled'),
-      (t.innerHTML = 'Submitting...'),
-      (t.disabled = !0),
-      $.post(
-        'https://script.google.com/macros/s/AKfycbwXJKOxUkeMWbaWtaaN7y5vqJqnoxItCrihQkz4-Q/exec',
-        o,
-        function (t) {
-          console.log(t),
-            (e.style.display = 'none'),
-            (n.style.display = 'block');
-        }
-      );
-  });
-}
+// function loadForm() {
+//   var e = document.querySelector('.js-form'),
+//     t = document.querySelector('.js-form-submit'),
+//     n =
+//       (document.querySelector('.js-form-error'),
+//       document.querySelector('.js-form-success'));
+//   t.addEventListener('click', function () {
+//     console.log('click');
+//     var o = {
+//       NAME: document.querySelector('.js-form-name').value,
+//       RESPONSE: document.querySelector('.js-rsvp-option.is-active').dataset
+//         .value,
+//       ATTENDING: document.querySelector('.js-form-attending').value,
+//       DIET: document.querySelector('.js-form-diet').value
+//     };
+//     t.classList.add('is-disabled'),
+//       (t.innerHTML = 'Submitting...'),
+//       (t.disabled = !0),
+//       $.post(
+//         'https://script.google.com/macros/s/AKfycbwXJKOxUkeMWbaWtaaN7y5vqJqnoxItCrihQkz4-Q/exec',
+//         o,
+//         function (t) {
+//           console.log(t),
+//             (e.style.display = 'none'),
+//             (n.style.display = 'block');
+//         }
+//       );
+//   });
+// }
 function loadNav() {
   var e = $('.nav')[0];
   animate({
