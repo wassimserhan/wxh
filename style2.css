@@ -7151,12 +7151,19 @@ div.save-br-green-dots svg {
 .year {
   font-size: 200px;
   /* z-index: -1; */
-  opacity: 0.2;
+  opacity: 0;
   position: absolute;
-  bottom: -40px;
+  bottom: -221px;
   left: 50%;
   transform: translateX(-50%);
   color: rgb(25, 60, 53);
+}
+
+@media (max-width: 498px) {
+  .year {
+    font-size: 50px;
+    bottom: -67px;
+  }
 }
 
 .countdown {
@@ -7196,4 +7203,14 @@ div.save-br-green-dots svg {
   .time small {
     font-size: 10px;
   }
+}
+
+.ampersand {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 85px;
+  width: 130px;
+  opacity: 0.1;
 }
