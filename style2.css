@@ -4653,7 +4653,7 @@ h5 {
 }
 @media only screen and (min-width: 770px) {
   h5 {
-    font-size: 1.25em;
+    font-size: 25px;
   }
 }
 h6 {
@@ -4669,7 +4669,7 @@ p.large {
 }
 @media only screen and (min-width: 770px) {
   p.large {
-    font-size: 32px;
+    font-size: 26px;
   }
 }
 blockquote {
@@ -5100,6 +5100,10 @@ canvas {
     transform: translateY(0%);
   }
 }
+.index-header__date {
+  font-size: 20px;
+}
+
 .index-header__title {
   position: relative;
   margin-top: 20px;
