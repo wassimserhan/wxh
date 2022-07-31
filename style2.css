@@ -5072,7 +5072,7 @@ canvas {
 }
 
 .index-header__subtitle {
-  height: 20px;
+  height: 40px;
   overflow: hidden;
   font-size: 14px;
   position: relative;
@@ -5629,9 +5629,9 @@ div.index-br-green-dots {
     opacity: 0;
   }
 }
-.index-story {
+/* .index-story {
   padding-top: 5em;
-}
+} */
 @media only screen and (min-width: 770px) {
   /* .index-story {
     margin-top: 6em;
@@ -7222,12 +7222,12 @@ iframe {
 }
 
 .container {
-  background-color: #fef1ec !important;
+  /* background-color: #fef1ec !important; */
   padding: 2rem;
 }
 
 .flowers-image {
-  max-width: 410px;
+  max-width: 285px;
   width: 100%;
 }
 
