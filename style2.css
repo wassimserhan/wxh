@@ -7251,3 +7251,7 @@ iframe {
   right: 0;
   top: 49px;
 }
+
+.zola-registry-iframe {
+  height: 1000px !important;
+}
