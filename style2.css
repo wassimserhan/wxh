@@ -4815,6 +4815,12 @@ canvas {
   -webkit-overflow-scrolling: touch;
   z-index: 10;
 }
+
+@media (max-width: 498px) {
+  .nav {
+    font-size: 20px;
+  }
+}
 .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7253,5 +7259,11 @@ iframe {
 }
 
 .zola-registry-iframe {
-  height: 990px !important;
+  height: 130vh !important;
+}
+
+@media (max-width: 468px) {
+  .zola-registry-iframe {
+    height: 150vh !important;
+  }
 }
