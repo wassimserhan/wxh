@@ -3457,7 +3457,7 @@ const year = document.getElementById('year');
 
 const currentYear = new Date().getFullYear();
 
-const newYearTime = new Date(`June 01 ${currentYear} 00:00:00`);
+const newYearTime = new Date(`June 01 ${currentYear} 17:00:00`);
 
 // Set background year
 year.innerText = currentYear + 1;
